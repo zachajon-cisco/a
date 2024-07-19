@@ -20,4 +20,4 @@ jobs:
         with:
           token: ${{ secrets.GIT_SECRET }}
           repository: zachajon-cisco/b
-          event-type: dev-docs-trigger
+          event-type: workflow_dispatch
